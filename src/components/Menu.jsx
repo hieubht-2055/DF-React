@@ -6,9 +6,8 @@ import * as actions from './../actions/index';
 
 const menus = [
   { name: 'Home', to: '/' },
-  { name: 'Products', to: '/products' },
   { name: 'Categories', to: '/admin/categories' },
-  { name: 'Products', to: '/products' }
+  { name: 'Products', to: '/admin/products' },
 ];
 
 const MenuLink = ({ label, to, event }) => {

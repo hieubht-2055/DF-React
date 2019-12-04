@@ -3,6 +3,7 @@ import Login from '../components/Login';
 import NotFound from '../components/NotFound';
 import AdminCategories from '../components/AdminCategories';
 import Profile from '../components/Profile';
+import AdminProducts from '../components/AdminProducts';
 import App from './../App';
 
 const routes = [
@@ -37,6 +38,11 @@ const routes = [
         name: 'profile',
         exact: true,
         component: Profile
+      },
+      {
+        path: '/admin/products',
+        name: 'admin_products',
+        component: AdminProducts
       },
       {
         path: '',

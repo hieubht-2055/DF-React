@@ -33,6 +33,13 @@ export const updateProfile = data => {
     type: types.UPDATE_PROFILE,
     data
   };
+}
+
+export const fetchProducts = data => {
+  return {
+    type: types.FECTH_PRODUCTS,
+    data
+  };
 };
 
 export const logOut = () => {
